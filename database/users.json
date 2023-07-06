@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "63946149b3c3dea4811daeae"
+  },
+  "email": "JLL@email.com",
+  "role": "super-admin",
+  "hash": "b01e4f826b53cc54af38561626da378c68ce56d0b4d38cc0587117f43728649fb1c40b6fc4eb507abcc935822411cfbb515e24ad0af39854d04e91988ed44c1e.dfbfa2c558a53464",
+  "name": "JLL Super Admin",
+  "phone": "0",
+  "defaultLanguage": null,
+  "createdAt": {
+    "$date": "2022-12-10T08:27:58.347Z"
+  },
+  "updatedAt": {
+    "$date": "2022-12-10T08:27:58.347Z"
+  },
+  "__v": 0
+}]

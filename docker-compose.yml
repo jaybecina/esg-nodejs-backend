@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      dockerfile: ./Dockerfile
+    restart: on-failure
+    env_file:
+      - .env
+    ports:
+      - ${PORT}:${PORT}
+    networks:
+      - public
+  frontend:
+    image: jll-frontend
+    restart: on-failure
+    ports:
+      - ${APP_PORT}:80
+    networks:
+      - public
+
+networks:
+  public:

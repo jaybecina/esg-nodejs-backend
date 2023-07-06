@@ -1,0 +1,112 @@
+[{
+  "_id": {
+    "$oid": "638730bec1d4fed4f9a35887"
+  },
+  "name": "Update Form Record",
+  "uniqueId": "update-form-record",
+  "description": "When any user has updated the form, add a record in filled record",
+  "level": "info",
+  "label": "",
+  "header": "{{username}} has updated the form",
+  "content": "",
+  "variables": [],
+  "createdAt": {
+    "$date": "2022-11-30T10:30:22.924Z"
+  },
+  "updatedAt": {
+    "$date": "2022-11-30T10:30:22.924Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63884b6f91a034680abc4f00"
+  },
+  "name": "User submit form message",
+  "uniqueId": "user-submit-form-message",
+  "description": "When user submit the form, send message to client admin",
+  "level": "info",
+  "label": "NEW",
+  "header": "{{formName}} is submitted. Please check",
+  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "variables": [
+    "url",
+    "formId",
+    "formName"
+  ],
+  "createdAt": {
+    "$date": "2022-12-01T06:36:31.586Z"
+  },
+  "updatedAt": {
+    "$date": "2022-12-01T06:36:31.586Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63882c56c9384ca51446dda2"
+  },
+  "name": "Assign user to form",
+  "uniqueId": "assign-user-to-form",
+  "description": "When any user is assigned the form, add message to user",
+  "level": "info",
+  "label": "NEW",
+  "header": "{{formName}} is assigned to you",
+  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "variables": [
+    "formName",
+    "formId",
+    "url"
+  ],
+  "createdAt": {
+    "$date": "2022-12-01T04:23:50.688Z"
+  },
+  "updatedAt": {
+    "$date": "2022-12-01T04:23:50.688Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6389640f0956718ba818d1bc"
+  },
+  "name": "Remind deadline of form message",
+  "uniqueId": "remind-deadline-of-form-message",
+  "description": "Send message to client to remind the deadline of the form is close.",
+  "level": "info",
+  "label": "Remind",
+  "header": "{{days}} days before deadline {{deadline}}",
+  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "variables": [
+    "url",
+    "days",
+    "deadline"
+  ],
+  "createdAt": {
+    "$date": "2022-12-02T02:33:51.547Z"
+  },
+  "updatedAt": {
+    "$date": "2022-12-02T02:33:51.547Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "638863a49211cd60612b1192"
+  },
+  "name": "Client admin reject form message",
+  "uniqueId": "client-admin-reject-form-message",
+  "description": "Send message to user when client admin reject the form",
+  "level": "info",
+  "label": "Remind",
+  "header": "The {{formName}} data has some errors, please check it again",
+  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "variables": [
+    "url",
+    "formId",
+    "formName"
+  ],
+  "createdAt": {
+    "$date": "2022-12-01T08:19:48.028Z"
+  },
+  "updatedAt": {
+    "$date": "2022-12-01T08:19:48.028Z"
+  },
+  "__v": 0
+}]
